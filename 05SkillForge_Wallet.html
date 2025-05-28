@@ -1,0 +1,19 @@
+<section class="wallet-container">
+    <div class="balance">Current Balance: ₹<span id="balance">0</span></div>
+
+    <!-- Add Money -->
+    <input type="number" id="amount" placeholder="Enter amount to add" min="1" />
+    <button id="payBtn">Add Money</button>
+
+    <!-- Withdraw -->
+    <input type="number" id="withdrawAmount" placeholder="Enter amount to withdraw" min="1" />
+    <button id="withdrawBtn">Withdraw</button>
+
+    <!-- UPI Payment -->
+    <h3 style="margin-top: 2rem; color: #00fff7;">Pay via UPI</h3>
+    <p>Scan this QR code to add funds</p>
+    <img src="your_qr_code.png" alt="UPI QR Code" style="width: 200px; height: 200px; margin: 1rem auto;" />
+    <p>or UPI ID: <strong>yourupi@bank</strong></p>
+
+    <div class="message" id="message"></div>
+</section>
